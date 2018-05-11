@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D269FF620A5213F00E50768 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D269FF520A5213F00E50768 /* AppDelegate.m */; };
+		2D26A00120A5214100E50768 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D26A00020A5214100E50768 /* main.m */; };
+		2D26A00B20A5214100E50768 /* RNAppleTVNavigationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D26A00A20A5214100E50768 /* RNAppleTVNavigationTests.m */; };
+		2D26A01620A5214100E50768 /* RNAppleTVNavigationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D26A01520A5214100E50768 /* RNAppleTVNavigationUITests.m */; };
+		2D26A02420A6158B00E50768 /* RNAppleTVNavigation.ios.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 2D26A02320A6158B00E50768 /* RNAppleTVNavigation.ios.jsbundle */; };
+		6C00938FD8EBF027E6940146 /* Pods_RNAppleTVNavigation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A65BCBB061A711DD80B4511 /* Pods_RNAppleTVNavigation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D26A00720A5214100E50768 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D269FE920A5213E00E50768 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D269FF020A5213E00E50768;
+			remoteInfo = RNAppleTVNavigation;
+		};
+		2D26A01220A5214100E50768 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D269FE920A5213E00E50768 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D269FF020A5213E00E50768;
+			remoteInfo = RNAppleTVNavigation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D269FF120A5213F00E50768 /* RNAppleTVNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNAppleTVNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D269FF420A5213F00E50768 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2D269FF520A5213F00E50768 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2D269FFF20A5214100E50768 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D26A00020A5214100E50768 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2D26A00620A5214100E50768 /* RNAppleTVNavigationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNAppleTVNavigationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D26A00A20A5214100E50768 /* RNAppleTVNavigationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNAppleTVNavigationTests.m; sourceTree = "<group>"; };
+		2D26A00C20A5214100E50768 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D26A01120A5214100E50768 /* RNAppleTVNavigationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNAppleTVNavigationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D26A01520A5214100E50768 /* RNAppleTVNavigationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNAppleTVNavigationUITests.m; sourceTree = "<group>"; };
+		2D26A01720A5214100E50768 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D26A02320A6158B00E50768 /* RNAppleTVNavigation.ios.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = RNAppleTVNavigation.ios.jsbundle; path = ../../RNAppleTVNavigation.ios.jsbundle; sourceTree = "<group>"; };
+		4A65BCBB061A711DD80B4511 /* Pods_RNAppleTVNavigation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RNAppleTVNavigation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55B126399C1C4D0FDA4805D5 /* Pods-RNAppleTVNavigation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNAppleTVNavigation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNAppleTVNavigation/Pods-RNAppleTVNavigation.debug.xcconfig"; sourceTree = "<group>"; };
+		C083110AF3EFD285C5389B1B /* Pods-RNAppleTVNavigation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNAppleTVNavigation.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNAppleTVNavigation/Pods-RNAppleTVNavigation.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D269FEE20A5213E00E50768 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C00938FD8EBF027E6940146 /* Pods_RNAppleTVNavigation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D26A00320A5214100E50768 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D26A00E20A5214100E50768 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D269FE820A5213E00E50768 = {
+			isa = PBXGroup;
+			children = (
+				2D269FF320A5213F00E50768 /* RNAppleTVNavigation */,
+				2D26A00920A5214100E50768 /* RNAppleTVNavigationTests */,
+				2D26A01420A5214100E50768 /* RNAppleTVNavigationUITests */,
+				2D269FF220A5213F00E50768 /* Products */,
+				C7951D983271F098282449ED /* Pods */,
+				94A0EF40B32B80165C05E210 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2D269FF220A5213F00E50768 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D269FF120A5213F00E50768 /* RNAppleTVNavigation.app */,
+				2D26A00620A5214100E50768 /* RNAppleTVNavigationTests.xctest */,
+				2D26A01120A5214100E50768 /* RNAppleTVNavigationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D269FF320A5213F00E50768 /* RNAppleTVNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				2D26A02320A6158B00E50768 /* RNAppleTVNavigation.ios.jsbundle */,
+				2D269FF420A5213F00E50768 /* AppDelegate.h */,
+				2D269FF520A5213F00E50768 /* AppDelegate.m */,
+				2D269FFF20A5214100E50768 /* Info.plist */,
+				2D26A00020A5214100E50768 /* main.m */,
+			);
+			path = RNAppleTVNavigation;
+			sourceTree = "<group>";
+		};
+		2D26A00920A5214100E50768 /* RNAppleTVNavigationTests */ = {
+			isa = PBXGroup;
+			children = (
+				2D26A00A20A5214100E50768 /* RNAppleTVNavigationTests.m */,
+				2D26A00C20A5214100E50768 /* Info.plist */,
+			);
+			path = RNAppleTVNavigationTests;
+			sourceTree = "<group>";
+		};
+		2D26A01420A5214100E50768 /* RNAppleTVNavigationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2D26A01520A5214100E50768 /* RNAppleTVNavigationUITests.m */,
+				2D26A01720A5214100E50768 /* Info.plist */,
+			);
+			path = RNAppleTVNavigationUITests;
+			sourceTree = "<group>";
+		};
+		94A0EF40B32B80165C05E210 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A65BCBB061A711DD80B4511 /* Pods_RNAppleTVNavigation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7951D983271F098282449ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				55B126399C1C4D0FDA4805D5 /* Pods-RNAppleTVNavigation.debug.xcconfig */,
+				C083110AF3EFD285C5389B1B /* Pods-RNAppleTVNavigation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D269FF020A5213E00E50768 /* RNAppleTVNavigation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D26A01A20A5214100E50768 /* Build configuration list for PBXNativeTarget "RNAppleTVNavigation" */;
+			buildPhases = (
+				B78A24746630E2D2EFA844EF /* [CP] Check Pods Manifest.lock */,
+				2D269FED20A5213E00E50768 /* Sources */,
+				2D269FEE20A5213E00E50768 /* Frameworks */,
+				2D269FEF20A5213E00E50768 /* Resources */,
+				1A1B0E35715BD51820F612CD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNAppleTVNavigation;
+			productName = RNAppleTVNavigation;
+			productReference = 2D269FF120A5213F00E50768 /* RNAppleTVNavigation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D26A00520A5214100E50768 /* RNAppleTVNavigationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D26A01D20A5214100E50768 /* Build configuration list for PBXNativeTarget "RNAppleTVNavigationTests" */;
+			buildPhases = (
+				2D26A00220A5214100E50768 /* Sources */,
+				2D26A00320A5214100E50768 /* Frameworks */,
+				2D26A00420A5214100E50768 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D26A00820A5214100E50768 /* PBXTargetDependency */,
+			);
+			name = RNAppleTVNavigationTests;
+			productName = RNAppleTVNavigationTests;
+			productReference = 2D26A00620A5214100E50768 /* RNAppleTVNavigationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2D26A01020A5214100E50768 /* RNAppleTVNavigationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D26A02020A5214100E50768 /* Build configuration list for PBXNativeTarget "RNAppleTVNavigationUITests" */;
+			buildPhases = (
+				2D26A00D20A5214100E50768 /* Sources */,
+				2D26A00E20A5214100E50768 /* Frameworks */,
+				2D26A00F20A5214100E50768 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D26A01320A5214100E50768 /* PBXTargetDependency */,
+			);
+			name = RNAppleTVNavigationUITests;
+			productName = RNAppleTVNavigationUITests;
+			productReference = 2D26A01120A5214100E50768 /* RNAppleTVNavigationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D269FE920A5213E00E50768 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Douglas Lowder";
+				TargetAttributes = {
+					2D269FF020A5213E00E50768 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					2D26A00520A5214100E50768 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 2D269FF020A5213E00E50768;
+					};
+					2D26A01020A5214100E50768 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 2D269FF020A5213E00E50768;
+					};
+				};
+			};
+			buildConfigurationList = 2D269FEC20A5213E00E50768 /* Build configuration list for PBXProject "RNAppleTVNavigation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D269FE820A5213E00E50768;
+			productRefGroup = 2D269FF220A5213F00E50768 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D269FF020A5213E00E50768 /* RNAppleTVNavigation */,
+				2D26A00520A5214100E50768 /* RNAppleTVNavigationTests */,
+				2D26A01020A5214100E50768 /* RNAppleTVNavigationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D269FEF20A5213E00E50768 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D26A02420A6158B00E50768 /* RNAppleTVNavigation.ios.jsbundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D26A00420A5214100E50768 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D26A00F20A5214100E50768 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A1B0E35715BD51820F612CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RNAppleTVNavigation/Pods-RNAppleTVNavigation-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DoubleConversion/DoubleConversion.framework",
+				"${BUILT_PRODUCTS_DIR}/Folly/folly.framework",
+				"${BUILT_PRODUCTS_DIR}/RNSVG/RNSVG.framework",
+				"${BUILT_PRODUCTS_DIR}/React/React.framework",
+				"${BUILT_PRODUCTS_DIR}/glog/glog.framework",
+				"${BUILT_PRODUCTS_DIR}/yoga/yoga.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DoubleConversion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/folly.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNSVG.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/glog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/yoga.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RNAppleTVNavigation/Pods-RNAppleTVNavigation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B78A24746630E2D2EFA844EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RNAppleTVNavigation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D269FED20A5213E00E50768 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D26A00120A5214100E50768 /* main.m in Sources */,
+				2D269FF620A5213F00E50768 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D26A00220A5214100E50768 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D26A00B20A5214100E50768 /* RNAppleTVNavigationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D26A00D20A5214100E50768 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D26A01620A5214100E50768 /* RNAppleTVNavigationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D26A00820A5214100E50768 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D269FF020A5213E00E50768 /* RNAppleTVNavigation */;
+			targetProxy = 2D26A00720A5214100E50768 /* PBXContainerItemProxy */;
+		};
+		2D26A01320A5214100E50768 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D269FF020A5213E00E50768 /* RNAppleTVNavigation */;
+			targetProxy = 2D26A01220A5214100E50768 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2D26A01820A5214100E50768 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				TVOS_DEPLOYMENT_TARGET = 11.3;
+			};
+			name = Debug;
+		};
+		2D26A01920A5214100E50768 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TVOS_DEPLOYMENT_TARGET = 11.3;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D26A01B20A5214100E50768 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55B126399C1C4D0FDA4805D5 /* Pods-RNAppleTVNavigation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P83ZV6W49Z;
+				INFOPLIST_FILE = RNAppleTVNavigation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.douglowder.RNAppleTVNavigation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		2D26A01C20A5214100E50768 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C083110AF3EFD285C5389B1B /* Pods-RNAppleTVNavigation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P83ZV6W49Z;
+				INFOPLIST_FILE = RNAppleTVNavigation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.douglowder.RNAppleTVNavigation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		2D26A01E20A5214100E50768 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P83ZV6W49Z;
+				INFOPLIST_FILE = RNAppleTVNavigationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.douglowder.RNAppleTVNavigationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNAppleTVNavigation.app/RNAppleTVNavigation";
+			};
+			name = Debug;
+		};
+		2D26A01F20A5214100E50768 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P83ZV6W49Z;
+				INFOPLIST_FILE = RNAppleTVNavigationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.douglowder.RNAppleTVNavigationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNAppleTVNavigation.app/RNAppleTVNavigation";
+			};
+			name = Release;
+		};
+		2D26A02120A5214100E50768 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P83ZV6W49Z;
+				INFOPLIST_FILE = RNAppleTVNavigationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.douglowder.RNAppleTVNavigationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = RNAppleTVNavigation;
+			};
+			name = Debug;
+		};
+		2D26A02220A5214100E50768 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P83ZV6W49Z;
+				INFOPLIST_FILE = RNAppleTVNavigationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.douglowder.RNAppleTVNavigationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = RNAppleTVNavigation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D269FEC20A5213E00E50768 /* Build configuration list for PBXProject "RNAppleTVNavigation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D26A01820A5214100E50768 /* Debug */,
+				2D26A01920A5214100E50768 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D26A01A20A5214100E50768 /* Build configuration list for PBXNativeTarget "RNAppleTVNavigation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D26A01B20A5214100E50768 /* Debug */,
+				2D26A01C20A5214100E50768 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D26A01D20A5214100E50768 /* Build configuration list for PBXNativeTarget "RNAppleTVNavigationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D26A01E20A5214100E50768 /* Debug */,
+				2D26A01F20A5214100E50768 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D26A02020A5214100E50768 /* Build configuration list for PBXNativeTarget "RNAppleTVNavigationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D26A02120A5214100E50768 /* Debug */,
+				2D26A02220A5214100E50768 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D269FE920A5213E00E50768 /* Project object */;
+}
