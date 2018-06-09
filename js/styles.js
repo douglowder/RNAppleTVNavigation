@@ -41,8 +41,8 @@ export default (styles = StyleSheet.create({
     alignItems: 'center'
   },
   listViewDemoContainer: {
-    height: 600,
-    width: 700,
+    height: 700,
+    width: 1400,
     margin: 0,
     justifyContent: 'center',
     alignItems: 'center'
