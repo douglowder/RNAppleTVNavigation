@@ -87,7 +87,9 @@ class Slide extends Component {
     return (
       <View style={styles.container}>
         {this.renderLeft()}
+        <View style={{marginTop: 200}}>
         <Title text={this.props.title} />
+        </View>
         <View style={styles.contentContainer}>{this.props.children}</View>
         {this.renderRight()}
       </View>
