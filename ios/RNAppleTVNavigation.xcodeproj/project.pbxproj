@@ -12,6 +12,7 @@
 		2D26A00B20A5214100E50768 /* RNAppleTVNavigationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D26A00A20A5214100E50768 /* RNAppleTVNavigationTests.m */; };
 		2D26A01620A5214100E50768 /* RNAppleTVNavigationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D26A01520A5214100E50768 /* RNAppleTVNavigationUITests.m */; };
 		2D26A02420A6158B00E50768 /* RNAppleTVNavigation.ios.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 2D26A02320A6158B00E50768 /* RNAppleTVNavigation.ios.jsbundle */; };
+		2D632A1320CB9A7000827FBB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D632A1220CB9A7000827FBB /* Images.xcassets */; };
 		6C00938FD8EBF027E6940146 /* Pods_RNAppleTVNavigation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A65BCBB061A711DD80B4511 /* Pods_RNAppleTVNavigation.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +46,7 @@
 		2D26A01520A5214100E50768 /* RNAppleTVNavigationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNAppleTVNavigationUITests.m; sourceTree = "<group>"; };
 		2D26A01720A5214100E50768 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D26A02320A6158B00E50768 /* RNAppleTVNavigation.ios.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = RNAppleTVNavigation.ios.jsbundle; path = ../../RNAppleTVNavigation.ios.jsbundle; sourceTree = "<group>"; };
+		2D632A1220CB9A7000827FBB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4A65BCBB061A711DD80B4511 /* Pods_RNAppleTVNavigation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RNAppleTVNavigation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		55B126399C1C4D0FDA4805D5 /* Pods-RNAppleTVNavigation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNAppleTVNavigation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNAppleTVNavigation/Pods-RNAppleTVNavigation.debug.xcconfig"; sourceTree = "<group>"; };
 		C083110AF3EFD285C5389B1B /* Pods-RNAppleTVNavigation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNAppleTVNavigation.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNAppleTVNavigation/Pods-RNAppleTVNavigation.release.xcconfig"; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 		2D269FF320A5213F00E50768 /* RNAppleTVNavigation */ = {
 			isa = PBXGroup;
 			children = (
+				2D632A1220CB9A7000827FBB /* Images.xcassets */,
 				2D26A02320A6158B00E50768 /* RNAppleTVNavigation.ios.jsbundle */,
 				2D269FF420A5213F00E50768 /* AppDelegate.h */,
 				2D269FF520A5213F00E50768 /* AppDelegate.m */,
@@ -251,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D26A02420A6158B00E50768 /* RNAppleTVNavigation.ios.jsbundle in Resources */,
+				2D632A1320CB9A7000827FBB /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
