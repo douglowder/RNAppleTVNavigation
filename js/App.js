@@ -4,6 +4,7 @@
 import React, { Component } from 'react';
 
 import {
+  Platform,
   ScrollView,
   TabBarIOS,
   Text,
@@ -47,6 +48,8 @@ class App extends Component {
   }
 
   render() {
+    let platform_string_1 = 'Platform.isTVOS = ' + Platform.isTVOS;
+    let platform_string_2 = 'Platform.Version = ' + Platform.Version;
     return (
       <TabBarIOS
         unselectedTintColor="white"
@@ -59,6 +62,12 @@ class App extends Component {
           onPress={() => this.updateTab('main')}
         >
           <Slide title="React Native on tvOS 12" >
+            <Text style={styles.body}>
+              {platform_string_1}
+            </Text>
+            <Text style={styles.body}>
+              {platform_string_2}
+            </Text>
           </Slide>
         </TabBarIOS.Item>
         <TabBarIOS.Item
