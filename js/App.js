@@ -8,6 +8,7 @@ import {
   ScrollView,
   TabBarIOS,
   Text,
+  TVPosterView,
   Image,
   TextInput,
   TouchableOpacity,
@@ -16,7 +17,7 @@ import {
 
 import Slide from './Slide';
 
-import VictoryDemo from './VictoryDemo';
+//import VictoryDemo from './VictoryDemo';
 
 import ListViewDemo from './ListViewDemo';
 
@@ -35,7 +36,7 @@ class App extends Component {
 
   componentDidMount() {
     this.setState({
-      selectedTab: 'main'
+      selectedTab: 'tvUiKitDemo'
     });
   }
 
@@ -71,6 +72,21 @@ class App extends Component {
           </Slide>
         </TabBarIOS.Item>
         <TabBarIOS.Item
+          title="TVUIKit demo"
+          selected={this.state && this.state.selectedTab === 'tvUiKitDemo'}
+          onPress={() => this.updateTab('tvUiKitDemo')}
+        >
+          <Slide title="TVUIKitDemo">
+            <View>
+              <TVPosterView
+                title="TVPosterView"
+                subtitle="A cool view"
+                imageURL='flowers'
+              />
+            </View>
+          </Slide>
+        </TabBarIOS.Item>
+        <TabBarIOS.Item
           title="Text input demo"
           selected={this.state && this.state.selectedTab === 'textInputDemo'}
           onPress={() => this.updateTab('textInputDemo')}
@@ -100,6 +116,7 @@ class App extends Component {
                 </View>
           </Slide>
         </TabBarIOS.Item>
+        { /*
         <TabBarIOS.Item
           title="Data viz demo"
           selected={this.state && this.state.selectedTab === 'dataVizDemo'}
@@ -109,6 +126,7 @@ class App extends Component {
             <VictoryDemo />
           </Slide>
         </TabBarIOS.Item>
+           */ }
       </TabBarIOS>
     );
   }

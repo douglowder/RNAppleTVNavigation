@@ -6,21 +6,20 @@
     "start": "node node_modules/react-native/local-cli/cli.js start",
 	"bundle_ios_dev": "node node_modules/react-native/local-cli/cli.js bundle --entry-file index.js --platform ios --dev true --bundle-output RNAppleTVNavigation.ios.jsbundle",
 	"bundle_ios": "node node_modules/react-native/local-cli/cli.js bundle --entry-file index.js --platform ios --dev false --bundle-output RNAppleTVNavigation.ios.jsbundle",
-    "postinstall": "bash react-podspec.sh",
     "test": "jest"
   },
   "dependencies": {
-    "react": "16.3.1",
-    "react-native": "0.55.4",
+    "react": "16.4.1",
+    "react-native": "https://github.com/dlowder-salesforce/react-native#tvuikit",
     "react-native-svg": "^6.3.1",
     "victory-native": "https://github.com/FormidableLabs/victory-native#master",
     "react-navigation": "^2.0.1"
   },
   "devDependencies": {
     "babel-jest": "22.4.3",
-    "babel-preset-react-native": "4.0.0",
+    "babel-preset-react-native": "^5",
     "jest": "22.4.3",
-    "react-test-renderer": "16.3.1"
+    "react-test-renderer": "16.4.1"
   },
   "jest": {
     "preset": "react-native"
