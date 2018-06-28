@@ -9,6 +9,8 @@
     "test": "jest"
   },
   "dependencies": {
+    "@babel/core": "^7.0.0-beta.47",
+    "babel-core": "^7.0.0-beta.47",
     "react": "16.4.1",
     "react-native": "https://github.com/dlowder-salesforce/react-native#tvuikit",
     "react-native-svg": "^6.3.1",
@@ -16,9 +18,10 @@
     "react-navigation": "^2.0.1"
   },
   "devDependencies": {
-    "babel-jest": "22.4.3",
+    "babel-jest": "^23.2.0",
+    "babel-plugin-jest-hoist": "^23.2.0",
     "babel-preset-react-native": "^5",
-    "jest": "22.4.3",
+    "jest": "^23.2.0",
     "react-test-renderer": "16.4.1"
   },
   "jest": {
