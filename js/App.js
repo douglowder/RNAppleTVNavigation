@@ -81,7 +81,7 @@ class App extends Component {
               <TVPosterView
                 title="TVPosterView"
                 subtitle="A cool view"
-                imageURL='flowers'
+                imageURL='like'
               />
             </View>
           </Slide>
