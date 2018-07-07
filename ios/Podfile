@@ -1,6 +1,6 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
-platform :tvos, "10.0"
+platform :tvos, "12.0"
 use_frameworks!
 inhibit_all_warnings!
 
@@ -25,6 +25,7 @@ target 'RNAppleTVNavigation' do
   pod 'glog', :podspec => react_native_path + '/third-party-podspecs/glog.podspec'
 
   pod 'RNSVG', :path => react_native_path + '/../react-native-svg'
+  pod 'RNTVUIKit', :path => react_native_path + '/../react-native-tvuikit'
 end
 
 # When using RN in combination with Cocoapods, a lot of 

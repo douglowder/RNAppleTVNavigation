@@ -8,7 +8,6 @@ import {
   ScrollView,
   TabBarIOS,
   Text,
-  TVPosterView,
   Image,
   TextInput,
   TouchableOpacity,
@@ -26,6 +25,15 @@ import Icon from './Icon';
 import CustomEventDemo from './CustomEventDemo';
 
 import TextInputDemo from './TextInputDemo';
+
+import TVUIKit from 'react-native-tvuikit';
+
+const TVPosterView = TVUIKit.TVPosterView;
+
+
+// import {
+//   TVPosterView
+// } from 'react-native-tvuikit';
 
 const styles = require('./styles').default;
 
@@ -62,13 +70,9 @@ class App extends Component {
           selected={this.state && this.state.selectedTab === 'main'}
           onPress={() => this.updateTab('main')}
         >
-          <Slide title="React Native on tvOS 12" >
-            <Text style={styles.body}>
-              {platform_string_1}
-            </Text>
-            <Text style={styles.body}>
-              {platform_string_2}
-            </Text>
+          <Slide title="React Native on tvOS 12">
+            <Text style={styles.body}>{platform_string_1}</Text>
+            <Text style={styles.body}>{platform_string_2}</Text>
           </Slide>
         </TabBarIOS.Item>
         <TabBarIOS.Item
@@ -79,9 +83,10 @@ class App extends Component {
           <Slide title="TVUIKitDemo">
             <View>
               <TVPosterView
+                style={{ flex: 1 }}
                 title="TVPosterView"
                 subtitle="A cool view"
-                imageURL='like'
+                imageURL="like"
               />
             </View>
           </Slide>
@@ -108,15 +113,15 @@ class App extends Component {
           onPress={() => this.updateTab('tvRemoteDemo')}
         >
           <Slide title="Siri remote custom events">
-                <View style={styles.listViewDemoContainer}>
-                  <TouchableOpacity>
-                    <Text style={styles.body}>Custom event demo</Text>
-                  </TouchableOpacity>
-                  <CustomEventDemo />
-                </View>
+            <View style={styles.listViewDemoContainer}>
+              <TouchableOpacity>
+                <Text style={styles.body}>Custom event demo</Text>
+              </TouchableOpacity>
+              <CustomEventDemo />
+            </View>
           </Slide>
         </TabBarIOS.Item>
-        { /*
+        {/*
         <TabBarIOS.Item
           title="Data viz demo"
           selected={this.state && this.state.selectedTab === 'dataVizDemo'}
@@ -126,7 +131,7 @@ class App extends Component {
             <VictoryDemo />
           </Slide>
         </TabBarIOS.Item>
-           */ }
+           */}
       </TabBarIOS>
     );
   }
