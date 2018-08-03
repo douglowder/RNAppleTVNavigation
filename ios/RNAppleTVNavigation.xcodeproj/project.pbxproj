@@ -483,6 +483,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P83ZV6W49Z;
+				GCC_OPTIMIZATION_LEVEL = 1;
 				INFOPLIST_FILE = RNAppleTVNavigation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

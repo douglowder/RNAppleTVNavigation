@@ -29,11 +29,8 @@ import TextInputDemo from './TextInputDemo';
 import TVUIKit from 'react-native-tvuikit';
 
 const TVPosterView = TVUIKit.TVPosterView;
+const TVCardView = TVUIKit.TVCardView;
 
-
-// import {
-//   TVPosterView
-// } from 'react-native-tvuikit';
 
 const styles = require('./styles').default;
 
@@ -59,6 +56,26 @@ class App extends Component {
   render() {
     let platform_string_1 = 'Platform.isTVOS = ' + Platform.isTVOS;
     let platform_string_2 = 'Platform.Version = ' + Platform.Version;
+    let posterviewnames = ['like', 'dislike', 'call', 'flowers', 'party'];
+    let posterviews = posterviewnames.map(n => (
+      <TVPosterView
+        style={{ height: 400, width: 300, margin: 20}}
+        title='TVPosterView'
+        subtitle={n}
+        key={n}
+        imageURL={n}
+      />
+    ));
+    let cardviews = posterviewnames.map(n => (
+      <TVCardView
+        style={{ height: 400, width: 300, margin: 20}}
+        title='TVCardView'
+        subtitle={n}
+        key={n}
+        imageURL={n}
+      />
+    ));
+ 
     return (
       <TabBarIOS
         unselectedTintColor="white"
@@ -81,13 +98,11 @@ class App extends Component {
           onPress={() => this.updateTab('tvUiKitDemo')}
         >
           <Slide title="TVUIKitDemo">
-            <View>
-              <TVPosterView
-                style={{ flex: 1 }}
-                title="TVPosterView"
-                subtitle="A cool view"
-                imageURL="like"
-              />
+            <View style={{flexDirection: 'row'}}>
+              {posterviews}
+            </View>
+            <View style={{flexDirection: 'row'}}>
+              {cardviews}
             </View>
           </Slide>
         </TabBarIOS.Item>
