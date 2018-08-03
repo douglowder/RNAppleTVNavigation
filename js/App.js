@@ -68,7 +68,7 @@ class App extends Component {
     ));
     let cardviews = posterviewnames.map(n => (
       <TVCardView
-        style={{ height: 400, width: 300, margin: 20}}
+        style={{ height: 200, width: 300, margin: 20}}
         title='TVCardView'
         subtitle={n}
         key={n}
